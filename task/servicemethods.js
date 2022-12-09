@@ -3,7 +3,7 @@ function mPush(arr, item){
   }
 
 function mSlice(arr, from, to) {
-if (to > arr.length) {
+if (to > arr.length || !to) {
     to = arr.length;
 }
 let x = [];
