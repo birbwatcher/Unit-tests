@@ -1,13 +1,16 @@
+const { mFilter, mForEach, mPush} = require('./servicemethods')
+
+
 function getFilter(arr, predicate) {
     if (typeof predicate === 'function') {
-        return arr.filter(predicate);
+        return mFilter(arr, predicate);
     }
     if (Array.isArray(predicate)) {
         let x = [];
-        arr.forEach(item => {
+        mForEach(arr, item => {
           for (key in item) {
             if (predicate[0] === key && item[key] === predicate[1])       {
-           x.push(item)
+           mPush(x, item)
             }
           }
         });
@@ -15,18 +18,18 @@ function getFilter(arr, predicate) {
     }
     if (typeof predicate === 'object') {
         let x = [];
-        arr.forEach(item => {
+        mForEach(arr, item => {
             if (item.age === predicate.age && item.active === predicate.active) {
-              x.push(item);
+              mPush(x, item);
           }
         })
         return x;
     }
     if (typeof predicate === 'string') {
         let x = [];
-         arr.forEach(item => {
+         mForEach(arr, item => {
              if (item[predicate]) {
-                x.push(item);
+                mPush(x, item);
              }
          })
         return x;
