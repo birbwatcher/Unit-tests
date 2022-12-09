@@ -32,3 +32,11 @@ function mFind(arr, callback) {
      }
    }
 }
+
+function mForEach(arr, callback) {
+    for (let i = 0; i < arr.length; i += 1) {
+        callback(arr[i], i, arr);
+    }
+}
+
+module.exports = { mPush, mSlice }
