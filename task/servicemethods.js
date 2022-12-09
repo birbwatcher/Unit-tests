@@ -39,4 +39,4 @@ function mForEach(arr, callback) {
     }
 }
 
-module.exports = { mPush, mSlice, mFilter }
+module.exports = { mPush, mSlice, mFilter, mFind, mForEach }

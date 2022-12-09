@@ -1,14 +1,17 @@
+const { mFilter, mForEach, mPush} = require('./servicemethods')
+
+
 function getDropWhile(arr, callback) {
     if (typeof callback === 'function') {
-       let x = arr.filter(callback);
-       return arr.filter(item => !x.includes(item))
+       let x = mFilter(arr, callback);
+       return mFilter(arr, item => !x.includes(item))
     }
     if (Array.isArray(callback)) {
         let x = [];
-        arr.forEach(item => {
+        mForEach(arr, item => {
           for (key in item) {
             if (callback[0] === key && item[key] != callback[1])       {
-           x.push(item)
+           mPush(x, item);
             }
           }
         });
