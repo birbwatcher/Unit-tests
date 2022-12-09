@@ -1,3 +1,5 @@
+const { mFilter, mForEach, mPush} = require('./servicemethods')
+
 function gettake(arr, len) {
     if (len === 0) {
        return [];
