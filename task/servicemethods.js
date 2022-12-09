@@ -6,6 +6,12 @@ function mSlice(arr, from, to) {
 if (to > arr.length || !to) {
     to = arr.length;
 }
+if (from < 0 && from >= -arr.length) {
+    from = arr.length + from;
+}
+if (from < -arr.length) {
+    return arr;
+}
 let x = [];
 let y = 0;
 for (let i = from; i < to; i++) {
