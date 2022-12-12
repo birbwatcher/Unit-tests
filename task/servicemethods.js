@@ -45,13 +45,21 @@ function mForEach(arr, callback) {
     }
 }
 
-function mIncludes (arr, element) {
-    for (let i = 0; i<arr.length; i++) {
-        if (arr[i] === element) {
-            return true;
+function mIncludes (arr, element, index) {
+    if (Array.isArray(arr)) {
+        if (!index) {
+            index = 0;
         }
+        for (let i = index; i<arr.length; i++) {
+            if (arr[i] === element) {
+                return true;
+            }
+        }
+        return false;
     }
-    return false;
+    if (typeof arr === 'string') {
+        return arr.includes(element, index);
+    }
 }
 
 module.exports = { mPush, mSlice, mFilter, mFind, mForEach, mIncludes }
