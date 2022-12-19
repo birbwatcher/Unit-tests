@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1671276866576" clover="3.2.0">
+  <project timestamp="1671276866577" name="All files">
+    <metrics statements="187" coveredstatements="187" conditionals="103" coveredconditionals="97" methods="33" coveredmethods="33" elements="323" coveredelements="317" complexity="0" loc="187" ncloc="187" packages="1" files="17" classes="17"/>
+    <file name="getchunk.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getchunk.js">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="9" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="getcompact.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getcompact.js">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="getdrop.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getdrop.js">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+    <file name="getdropwhile.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getdropwhile.js">
+      <metrics statements="21" coveredstatements="21" conditionals="14" coveredconditionals="13" methods="5" coveredmethods="5"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="3" type="stmt"/>
+      <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="3" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+    </file>
+    <file name="getfilter.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getfilter.js">
+      <metrics statements="23" coveredstatements="23" conditionals="18" coveredconditionals="17" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+    </file>
+    <file name="getfind.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getfind.js">
+      <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="9" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+    </file>
+    <file name="getincludes.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getincludes.js">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+    </file>
+    <file name="getmap.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getmap.js">
+      <metrics statements="17" coveredstatements="17" conditionals="12" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="14" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="20" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="4" type="stmt"/>
+      <line num="26" count="3" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+    </file>
+    <file name="getmerge.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getmerge.js">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="5" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+    </file>
+    <file name="getomit.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getomit.js">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="getomitby.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getomitby.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="getpick.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getpick.js">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+    <file name="getpickby.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getpickby.js">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="gettake.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\gettake.js">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="gettopairs.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\gettopairs.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="getzip.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getzip.js">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="6" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
+    <file name="servicemethods.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\servicemethods.js">
+      <metrics statements="33" coveredstatements="33" conditionals="22" coveredconditionals="21" methods="6" coveredmethods="6"/>
+      <line num="2" count="34" type="stmt"/>
+      <line num="6" count="15" type="cond" truecount="4" falsecount="0"/>
+      <line num="7" count="7" type="stmt"/>
+      <line num="9" count="15" type="cond" truecount="4" falsecount="0"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="12" count="15" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="15" count="14" type="stmt"/>
+      <line num="16" count="14" type="stmt"/>
+      <line num="17" count="14" type="stmt"/>
+      <line num="18" count="19" type="stmt"/>
+      <line num="19" count="19" type="stmt"/>
+      <line num="21" count="14" type="stmt"/>
+      <line num="25" count="4" type="stmt"/>
+      <line num="26" count="4" type="stmt"/>
+      <line num="27" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="7" type="stmt"/>
+      <line num="31" count="4" type="stmt"/>
+      <line num="35" count="4" type="stmt"/>
+      <line num="36" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="37" count="4" type="stmt"/>
+      <line num="43" count="4" type="stmt"/>
+      <line num="44" count="9" type="stmt"/>
+      <line num="49" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="50" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="10" type="stmt"/>
+      <line num="53" count="11" type="stmt"/>
+      <line num="54" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="55" count="7" type="stmt"/>
+      <line num="58" count="4" type="stmt"/>
+      <line num="60" count="6" type="cond" truecount="1" falsecount="1"/>
+      <line num="61" count="6" type="stmt"/>
+      <line num="65" count="13" type="stmt"/>
+    </file>
+  </project>
+</coverage>

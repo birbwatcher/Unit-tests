@@ -6,9 +6,7 @@ function getIncludes(collection, value, index) {
     }
     if (typeof collection === 'object') {
         for (key in collection) {
-            if (collection[key] === value) {
-                return true
-            } else return false;
+            return collection[key] === value;
         }
     }
     //looks like string.prototype methods is allowed :)

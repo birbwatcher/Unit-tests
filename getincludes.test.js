@@ -21,3 +21,11 @@ test(
     },
 );
 
+
+test(
+    'Checking returning array of objects without inactive users',
+    () => {
+        expect(getIncludes({1: 1, 2: 2, 3: 3}, 1)).toStrictEqual(true);
+    },
+);
+
