@@ -12,13 +12,13 @@ if (from < 0 && from >= -arr.length) {
 if (from < -arr.length) {
     return arr;
 }
-let x = [];
-let y = 0;
+let result = [];
+let current = 0;
 for (let i = from; i < to; i++) {
-    x[y] = arr[i];
-    y++
+    result[current] = arr[i];
+    current++
 }
-return x;
+return result;
 }
 
 function mFilter(arr, callback) {
@@ -45,21 +45,13 @@ function mForEach(arr, callback) {
     }
 }
 
-function mIncludes (arr, element, index) {
-    if (Array.isArray(arr)) {
-        if (!index) {
-            index = 0;
+function mIncludes (input, element, index = 0) {
+    for (let i = index; i<input.length; i++) {
+        if (input[i] === element) {
+            return true;
         }
-        for (let i = index; i<arr.length; i++) {
-            if (arr[i] === element) {
-                return true;
-            }
-        }
-        return false;
     }
-    if (typeof arr === 'string') {
-        return arr.includes(element, index);
-    }
+    return false;
 }
 
 module.exports = { mPush, mSlice, mFilter, mFind, mForEach, mIncludes }

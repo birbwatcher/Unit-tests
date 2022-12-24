@@ -1,6 +1,6 @@
 const getMerge = require('./task/getmerge.js');
 
-let object = {
+const object = {
     'a': [{ 'b': 2 }, { 'd': 4 }]
   };
 

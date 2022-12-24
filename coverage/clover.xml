@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1671276866576" clover="3.2.0">
-  <project timestamp="1671276866577" name="All files">
-    <metrics statements="187" coveredstatements="187" conditionals="103" coveredconditionals="97" methods="33" coveredmethods="33" elements="323" coveredelements="317" complexity="0" loc="187" ncloc="187" packages="1" files="17" classes="17"/>
+<coverage generated="1671875464718" clover="3.2.0">
+  <project timestamp="1671875464719" name="All files">
+    <metrics statements="182" coveredstatements="182" conditionals="98" coveredconditionals="93" methods="33" coveredmethods="33" elements="313" coveredelements="308" complexity="0" loc="182" ncloc="182" packages="1" files="17" classes="17"/>
     <file name="getchunk.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\getchunk.js">
       <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
@@ -205,7 +205,7 @@
       <line num="17" count="1" type="stmt"/>
     </file>
     <file name="servicemethods.js" path="C:\my\курсы\RollingScopes\unittest\Unit-tests\task\servicemethods.js">
-      <metrics statements="33" coveredstatements="33" conditionals="22" coveredconditionals="21" methods="6" coveredmethods="6"/>
+      <metrics statements="28" coveredstatements="28" conditionals="17" coveredconditionals="17" methods="6" coveredmethods="6"/>
       <line num="2" count="34" type="stmt"/>
       <line num="6" count="15" type="cond" truecount="4" falsecount="0"/>
       <line num="7" count="7" type="stmt"/>
@@ -229,16 +229,11 @@
       <line num="37" count="4" type="stmt"/>
       <line num="43" count="4" type="stmt"/>
       <line num="44" count="9" type="stmt"/>
-      <line num="49" count="17" type="cond" truecount="2" falsecount="0"/>
-      <line num="50" count="11" type="cond" truecount="2" falsecount="0"/>
-      <line num="51" count="10" type="stmt"/>
-      <line num="53" count="11" type="stmt"/>
-      <line num="54" count="17" type="cond" truecount="2" falsecount="0"/>
-      <line num="55" count="7" type="stmt"/>
-      <line num="58" count="4" type="stmt"/>
-      <line num="60" count="6" type="cond" truecount="1" falsecount="1"/>
-      <line num="61" count="6" type="stmt"/>
-      <line num="65" count="13" type="stmt"/>
+      <line num="49" count="17" type="stmt"/>
+      <line num="50" count="23" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="9" type="stmt"/>
+      <line num="54" count="8" type="stmt"/>
+      <line num="57" count="13" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -4,7 +4,7 @@ function square(n) {
     return n * n;
 }
 
-let users = [
+const users = [
     { 'user': 'barney' },
     { 'user': 'fred' }
   ];

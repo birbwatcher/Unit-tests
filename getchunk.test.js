@@ -1,16 +1,19 @@
 const getchunk = require('./task/getchunk.js');
 
+const inputArray = ['a', 'b', 'c', 'd'];
+const outputArray = [['a', 'b', 'c'], ['d']];
+
 test(
     'Checking the Array with length 3',
     () => {
-        expect(getchunk(['a', 'b', 'c', 'd'], 3)).toStrictEqual([['a', 'b', 'c'], ['d']]);
+        expect(getchunk(inputArray, 3)).toStrictEqual(outputArray);
     },
 );
 
 test(
     'Checking the Array with length 2',
     () => {
-        expect(getchunk(['a', 'b', 'c', 'd'], 2)).toStrictEqual([['a', 'b'],['c', 'd']]);
+        expect(getchunk(inputArray, 2)).toStrictEqual([['a', 'b'],['c', 'd']]);
     }
 );
 

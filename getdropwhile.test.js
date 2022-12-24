@@ -1,6 +1,6 @@
 const getDropWhile = require('./task/getdropwhile.js');
 
-let users = [
+const users = [
     { 'user': 'barney',  'active': true },
     { 'user': 'fred',    'active': false },
     { 'user': 'pebbles', 'active': false }

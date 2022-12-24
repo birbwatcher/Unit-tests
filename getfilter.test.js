@@ -1,6 +1,6 @@
 const getFilter = require('./task/getfilter.js');
 
-let users = [
+const users = [
     { 'user': 'barney', 'age': 36, 'active': true },
     { 'user': 'fred',   'age': 40, 'active': false }
   ];

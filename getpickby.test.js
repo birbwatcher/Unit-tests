@@ -1,6 +1,6 @@
 const getPickBy = require('./task/getpickby.js');
 
-let object = { 'a': 1, 'b': '2', 'c': 3 };
+ const object = { 'a': 1, 'b': '2', 'c': 3 };
 
 test(
     'Trying to omit object',
