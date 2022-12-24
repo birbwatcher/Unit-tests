@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "picomatch": "^2.3.1"
+  }
+}
