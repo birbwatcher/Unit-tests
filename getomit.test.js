@@ -15,3 +15,4 @@ test(
         expect(getOmit(object, 'a')).toStrictEqual({ 'b': '2', 'c': 3 });
     },
 );
+

@@ -34,3 +34,4 @@ test(
       expect(getFind(users, 'active')).toStrictEqual({ 'user': 'barney', 'age': 36, 'active': true });
   },
 );
+
